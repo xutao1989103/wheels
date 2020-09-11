@@ -6,6 +6,9 @@ package com.xtao.concurrent;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("hello");
+        Thread thread = Thread.currentThread();
+        for (StackTraceElement stackTraceElement : thread.getStackTrace()) {
+            System.out.printf(stackTraceElement.toString());
+        }
     }
 }
