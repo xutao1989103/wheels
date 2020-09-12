@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0da450e0-0caf-49ee-ad66-04045731f2fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xtao/concurrent/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xtao/concurrent/Main.java" afterDir="false" />
     </list>
@@ -9,6 +13,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
@@ -26,10 +33,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1hM7mOsqvtOVB3MMaX5fVcPEal7" />
@@ -40,13 +47,14 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,18 +63,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21354933" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/xtao" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MetaspaceTest">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xtao.concurrent.Main" />
       <module name="jdk" />
       <extension name="coverage">
@@ -79,24 +88,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <configuration name="MetaspaceTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xtao.jvm.MetaspaceTest" />
+      <module name="jdk" />
+      <option name="VM_PARAMETERS" value="-Xmx20m -Xms10m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xtao.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MetaspaceTest" />
+      <item itemvalue="Application.Main" />
+    </list>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -109,45 +133,73 @@
       <updated>1599809265199</updated>
       <workItem from="1599809270367" duration="595000" />
       <workItem from="1599810901073" duration="3703000" />
+      <workItem from="1599874064718" duration="2674000" />
+      <workItem from="1599877204898" duration="6051000" />
+      <workItem from="1599891594715" duration="72000" />
+      <workItem from="1599891685248" duration="4458000" />
+      <workItem from="1599896537730" duration="2005000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="122" y="-875" key="#Project_Structure" timestamp="1599816164151">
-      <screen x="-438" y="-1080" width="1920" height="1080" />
+    <state x="560" y="205" width="1024" height="845" key="#Project_Structure" timestamp="1599874242451">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="122" y="-875" key="#Project_Structure/0.0.1440.900/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599816164151" />
-    <state x="335" y="-824" key="#com.intellij.ide.util.MemberChooser" timestamp="1599817076379">
-      <screen x="-438" y="-1080" width="1920" height="1080" />
+    <state x="560" y="205" width="1024" height="845" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1599874242451" />
+    <state x="560" y="284" width="789" height="509" key="#VisualVM_Launcher" timestamp="1599891636251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="284" width="789" height="509" key="#VisualVM_Launcher/0.0.1920.1080@0.0.1920.1080" timestamp="1599891636251" />
+    <state x="535" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599891718359">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="535" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599891718359" />
+    <state x="773" y="256" width="565" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1599894952058">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="335" y="-824" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599817076379" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1599816169315">
-      <screen x="-438" y="-1080" width="1920" height="1080" />
+    <state x="773" y="256" width="565" height="562" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1599894952058" />
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom" timestamp="1599896517704">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599816169315" />
+    <state width="1874" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599896517704" />
     <state width="1878" height="269" key="GridCell.Tab.0.bottom/0.23.1440.877/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599810329230" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1599816169312">
-      <screen x="-438" y="-1080" width="1920" height="1080" />
+    <state width="1874" height="272" key="GridCell.Tab.0.center" timestamp="1599896517704">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599816169312" />
+    <state width="1874" height="272" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599896517704" />
     <state width="1878" height="269" key="GridCell.Tab.0.center/0.23.1440.877/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599810329229" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1599816169311">
-      <screen x="-438" y="-1080" width="1920" height="1080" />
+    <state width="1874" height="272" key="GridCell.Tab.0.left" timestamp="1599896517703">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599816169311" />
+    <state width="1874" height="272" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599896517703" />
     <state width="1878" height="269" key="GridCell.Tab.0.left/0.23.1440.877/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599810329228" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1599816169314">
-      <screen x="-438" y="-1080" width="1920" height="1080" />
+    <state width="1874" height="272" key="GridCell.Tab.0.right" timestamp="1599896517704">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599816169314" />
+    <state width="1874" height="272" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599896517704" />
     <state width="1878" height="269" key="GridCell.Tab.0.right/0.23.1440.877/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599810329229" />
-    <state x="31" y="-901" key="SettingsEditor" timestamp="1599813100789">
-      <screen x="-438" y="-1080" width="1920" height="1080" />
+    <state x="493" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1599875472286">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="493" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599875472286" />
+    <state x="355" y="59" key="SettingsEditor" timestamp="1599896654341">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="31" y="-901" key="SettingsEditor/0.0.1440.900/-438.-1080.1920.1080@-438.-1080.1920.1080" timestamp="1599813100789" />
+    <state x="355" y="59" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1599896654341" />
+    <state x="881" y="218" width="381" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599881510701">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="881" y="218" width="381" height="641" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1599881510701" />
     <state x="187" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1599813365620">
       <screen x="-438" y="-1080" width="1920" height="1080" />
     </state>
